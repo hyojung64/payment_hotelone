@@ -3,9 +3,6 @@ version: 0.2
 env: 
   variables:
     _PROJECT_NAME: "user01-payment-02"
-    _DIR_NAME: "payment"
-    _EKS: "hotelone"
-    _NAMESPACE: "hotelone"
 
 phases:
   install:

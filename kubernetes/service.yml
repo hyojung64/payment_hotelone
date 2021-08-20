@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: payment
+  name: user01-payment-02
   labels:
-    app: payment
+    app: user01-payment-02
 spec:
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: payment
+    app: user01-payment-02

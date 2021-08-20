@@ -23,7 +23,7 @@ public class PaymentHistory {
         paymentApproved.publishAfterCommit();
 
             try {
-                Thread.currentThread().sleep((long) (600 + Math.random() * 440));
+                Thread.currentThread().sleep((long) (600 + Math.random() * 220));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

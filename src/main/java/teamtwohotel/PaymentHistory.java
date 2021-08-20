@@ -2,6 +2,8 @@ package hotelone;
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
+import java.lang.Math;
+import java.lang.Thread;
 import java.util.List;
 
 @Entity
